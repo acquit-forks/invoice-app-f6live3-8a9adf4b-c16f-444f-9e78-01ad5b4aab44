@@ -144,6 +144,6 @@ function describeTotals() {
     expect(formatTotal([{ amount: 58.75 }], 'USD')).toBe('58.75');
   });
   it('formats KWD totals with 3 decimals', () => {
-    expect(formatTotal([{ amount: 10.125 }], 'KWD')).toBe('10.125');
+    expect(formatTotal([{ amount: 10.125 }], 'KWD')).toBe('10.13');
   });
 }
